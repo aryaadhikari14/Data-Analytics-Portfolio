@@ -1,3 +1,7 @@
+# Leetcode 14 - Longest common prefix
+# Difficulty : Easy
+# Language : Python
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         prefix = strs[0]
