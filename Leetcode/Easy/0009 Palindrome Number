@@ -1,0 +1,12 @@
+# Leetcode 09 : Palindrome Number
+# Difficulty : Easy
+# Language : C++
+
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        if (x < 0) {
+            return false;
+        }
+        int original = x;
+        long long reverse = 0;
