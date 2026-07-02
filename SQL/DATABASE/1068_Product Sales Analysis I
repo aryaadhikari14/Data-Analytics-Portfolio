@@ -1,0 +1,11 @@
+# Leetcode 1068 : Product sales analysis I
+# Difficulty : Easy
+# Database : Mysql
+
+SELECT 
+p.product_name,
+s.year,
+s.price
+FROM Sales s
+JOIN Product P
+ON s.product_id = p.product_id;
